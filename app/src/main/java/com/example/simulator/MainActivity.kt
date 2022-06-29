@@ -14,5 +14,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.txtHello.text = "Olá mizeráveis"
+
+
     }
 }
